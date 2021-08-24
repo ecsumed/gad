@@ -14,4 +14,7 @@ RUN python -m pip install --upgrade pip && \
 
 COPY . .
 
-ENTRYPOINT ["bash"]
+# ENTRYPOINT ["bash"]
+
+ENTRYPOINT ["/usr/local/bin/python","detect.py", "--image"]
+CMD ["man1.jpg"]
