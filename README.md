@@ -5,7 +5,7 @@ This project is a fork of https://github.com/smahesh29/Gender-and-Age-Detection 
 
 Main changes done here:
 * Dockerized the app
-* Modified the code to accept a video instead of an image. The creates and outpus frames (jpg images) of any and all detected faces in a video. It outputs the those frames into the `/frames` directory.
+* Modified the code to accept a video instead of an image. This creates and outpus frames (jpg images) of any and all detected faces in a video. It outputs the those frames into the `/frames` directory. From there, they could be combined into a video using ffmpeg (see 'Helpful Commandlines' section below).
 
 # Dependencies (If not using the docker image)
 ```
