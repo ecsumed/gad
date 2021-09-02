@@ -9,7 +9,7 @@ Main changes done here:
 
 # Dependencies (If not using the docker image)
 ```
-	pip install opencv-python argparse
+pip install opencv-python argparse
 ```
 
 # Usage
